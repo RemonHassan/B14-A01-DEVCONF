@@ -74,7 +74,7 @@ header div button{
 /* meet-our starts */
 .meet-our-container{
     padding: 80px 8%;
-    margin-bottom: 170px;
+    margin-bottom: 50px;
 }
 .meet-our{
     text-align: center;
@@ -200,3 +200,83 @@ hr{
 .somthing-new{
     padding: 80px 8%;
 }
+.faq-contact-section {
+  background-color: black;
+  color: #ffffff;
+  padding: 80px 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.faq-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.faq-header h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.faq-header .subtitle {
+  color: #94a3b8;
+  font-size: 1.1rem;
+}
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 40px;
+  margin-bottom: 60px;
+}
+.faq-item h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+.faq-item p {
+  color: #94a3b8;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+.contact-box {
+  background-color: #1a2130; 
+  border: 1px solid #1e293b;
+  border-radius: 12px;
+  padding: 40px;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-box h3 {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+
+.contact-box p {
+  color: #94a3b8;
+  margin-bottom: 24px;
+}
+
+/* Styled Email Button with Icon alignment */
+.email-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #2563eb;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background-color 0.2s ease;
+}
+.email-btn:hover {
+  background-color: #1d4ed8;
+}
+
+
