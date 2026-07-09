@@ -43,6 +43,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 80px;
 }
 .head-container{
     color: white;
@@ -67,5 +68,42 @@ header div button{
     width: 20%;
     margin-left: 40%;
     font-size: large;
+}
+/* main part */
+/* meet-our starts */
+.meet-our-container{
+    padding: 80px 8%;
+}
+.meet-our{
+    text-align: center;
+}
+.meet-our h1{ 
+    font-size: 56px;
+}
+.card-container{
+    margin-top: 56px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+/* cards */
+.card img{
+    width: 100%;
+    border-radius: 20px 20px 0 0;  
+}
+.card{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px 20px 0 0;
+}
+.card-text-container{
+    text-align: left;
+    padding: 24px 50px;
+}
+.card-category{
+    color:#2563EB;
+}
+.card-text-container h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
