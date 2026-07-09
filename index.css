@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Inter", sans-serif;
 }
 /* Nav css */
 nav{
@@ -73,6 +74,7 @@ header div button{
 /* meet-our starts */
 .meet-our-container{
     padding: 80px 8%;
+    margin-bottom: 170px;
 }
 .meet-our{
     text-align: center;
@@ -84,7 +86,7 @@ header div button{
     margin-top: 56px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 20px;
 }
 /* cards */
 .card img{
@@ -107,3 +109,94 @@ header div button{
     margin-bottom: 10px;
 }
 
+/* secure-your-spot start */
+.secure-your-spot-container{
+    text-align: center;
+    padding: 80px 8%;
+    margin-bottom: 50px;
+}
+.secure-your-spot-text h2{
+    font-size: 48px;
+    margin-bottom: 36px;
+}
+.secure-your-spot-text p{
+    font-size: 12px;
+    color: #575757;
+    margin-bottom: 36px;
+}
+/* buying card */
+.secure-your-spot-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+    padding:50px;
+}
+.buying-card{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 32px;
+}
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.buying-card-text{
+   text-align: left;
+}
+.buying-card button{
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid #2563EB;
+    border-radius: 10px;
+    color: #2563EB;
+    padding: 11px;
+    background-color: white;
+}
+.buying-card-text p{
+    font-size: 13px;
+    color: #575757;
+}
+.buying-card-text h1{
+    font-size: 44px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.buying-card-text ul li{
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+.buying-card-text ul li::marker {
+    color: #60A5FA;
+}
+.team-bg-clr{
+    background-color: #F8F9FB;
+}
+/* pro card */
+.pro-bg-color{
+    background-color: #0D1B2A;
+}
+#pro-text{
+    color: #93C5FD;
+}
+#pro-money{
+    color: white;
+}
+#pro-p{
+    color: white;
+}
+.pro-list li{
+    color: white;
+}
+.buying-card button{
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid #2563EB;
+    border-radius: 10px;
+    color: white;
+    padding: 11px;
+    background-color: #2563EB;
+}
+/* something new start */
+.somthing-new{
+    padding: 80px 8%;
+}
