@@ -7,28 +7,25 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 10px;
 }
-.logo{
-    display: flex;
-    align-items: center;
-    gap: 5px;
-}
+
 nav div ul li{
     list-style: none;
     
 }
 nav div ul {
     display: flex;
-    gap: 15px;
+    gap: 24px;
 }
 nav div ul li a{
     text-decoration: none;
-    color: grey;
+    color: #575757;
 }
 nav div button{
     color: white;
     padding: 10px 18px;
-    background-color: rgb(36, 36, 245);
+    background-color: #1D4ED8;
     border-radius: 8px;
     border: none;
 }
@@ -37,7 +34,7 @@ nav div button{
 header {
     background-image: 
     linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)),
-    url(./image/bg-image.avif);
+    url(./assets/banner.jpg);
     height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -64,7 +61,7 @@ header div p{
 header div button{
     color: white;
     padding: 10px 18px;
-    background-color: rgb(36, 36, 245);
+    background-color: #1D4ED8;
     border-radius: 8px;
     border: none;
     width: 20%;
