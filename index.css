@@ -34,7 +34,7 @@ nav div button{
 header {
     background-image: 
     linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)),
-    url(./assets/banner.jpg);
+    url('./assets/banner.jpg');
     height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
